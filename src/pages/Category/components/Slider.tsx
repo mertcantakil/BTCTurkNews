@@ -30,13 +30,14 @@ const Slider: React.FC<SliderProps> = ({ articles }) => {
     }
   ];
 
-
   return (
     <Carousel
       dots
       afterChange={onChange}
       slidesToShow={3}
       slidesToScroll={3}
+      autoplay
+      autoplaySpeed={5000}
       responsive={responsiveSettings}
     >
       {
