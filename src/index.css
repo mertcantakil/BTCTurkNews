@@ -1,0 +1,45 @@
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.centered-navbar {
+  display: 'flex';
+  align-items: 'center';
+}
+
+.content-wrapper {
+  padding: 0 48px;
+  background-color: #FFFFFF;
+}
+
+.ant-divider-horizontal {
+  margin: 0 !important;
+}
+
+.back-btn {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #052C54;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+.add-my-read-list-btn {
+  border: 0;
+  color: #052C54;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  padding: 0;
+  background-color: #F4F7FF;
+}
+
+.date {
+  font-size: 12px;
+  color: #7C89A0;
+}
