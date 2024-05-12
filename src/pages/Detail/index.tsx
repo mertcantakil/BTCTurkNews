@@ -4,7 +4,7 @@ import NewsDetail from './components/NewsDetail';
 
 const DetailPage: React.FC = () => {
   const location = useLocation();
-  const article = location.state?.article;
+  const article = location.state?.article || {};
 
   console.log('article: ', article)
   return (

@@ -17,7 +17,7 @@ const CategoryPage: React.FC = () => {
   const selectedTags = useSelector((state: any) => state.news.selectedTags);
   const { articles = [] } = topHeadlines;
   const location = useLocation();
-  const sourceId = location.state?.sourceId;
+  const sourceId = location.state?.sourceId || '';
 
   useEffect(() => {
     if (sourceId) {
