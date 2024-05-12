@@ -4,7 +4,11 @@
     "rewrites": [
       {
         "source": "/api/**",
-        "function": "proxy"
+        "function": "app"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ],
     "ignore": [
