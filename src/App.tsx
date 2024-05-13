@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <Provider store={store}>
       <BrowserRouter>
         <div>
-          <Routes>
+          <Routes> 
             <Route path='/' element={<MainPage />} />
             <Route path='/category' element={<CategoryPage />} />
             <Route path='/detail' element={<DetailPage />} />
