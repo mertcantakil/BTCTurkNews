@@ -16,7 +16,7 @@ const App: React.FC = () => {
             <Route path='/' element={<MainPage />} />
             <Route path='/category' element={<CategoryPage />} />
             <Route path='/detail' element={<DetailPage />} />
-          </Routes> 
+          </Routes>
         </div>
       </BrowserRouter>
     </Provider>
