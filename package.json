@@ -2,6 +2,7 @@
   "name": "btcturk_news",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://btcturk-express-server-bc8f2f55f69f.herokuapp.com",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",
