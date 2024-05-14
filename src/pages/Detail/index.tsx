@@ -6,10 +6,7 @@ const DetailPage: React.FC = () => {
   const location = useLocation();
   const article = location.state?.article || {};
 
-  console.log('article: ', article)
-  return (
-    <NewsDetail article={article} />
-  );
+  return <NewsDetail article={article} />;
 }
 
 export default DetailPage;

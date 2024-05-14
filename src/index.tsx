@@ -8,13 +8,15 @@ import Logo from './images/logo.svg';
 
 const { Header, Content } = Layout;
 
+const BASE_URL = window.location.origin;
+
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <ConfigProvider theme={{ hashed: false }}>
     <Layout>
       <Header className='centered-navbar'>
         <Col xs={12} sm={8} md={6} lg={4} xl={3}>
-          <img alt='logo' src={Logo} />
+          <a href={BASE_URL}><img alt='logo' src={Logo} /></a>
         </Col>
         <Col xs={12} sm={16} md={18} lg={20} xl={21}>
           <Menu theme="dark" mode="horizontal" />

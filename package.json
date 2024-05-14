@@ -6,6 +6,7 @@
     "npm": "10.2.3",
     "node": "20.10.0"
   },
+  "proxy": "https://btckturk-d24ef.web.app/api",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.4",
     "@testing-library/jest-dom": "^5.17.0",
@@ -32,8 +33,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "serve -s build",
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build && gzipper compress --verbose ./build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -27,3 +27,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.resource-url {
+  text-decoration: none;
+  font-size: 11px;
+}

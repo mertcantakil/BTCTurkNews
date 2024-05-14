@@ -17,8 +17,12 @@ const AddMyReadingList: React.FC<AddMyReadingListProps> = ({ isBranded, uniqueKe
     const readingListArray = localStorage.getItem('readingList');
     if (readingListArray) {
       const tempArr = JSON.parse(readingListArray);
+
       if (tempArr.includes(uniqueKey)) {
         setIsAdded(true);
+      }
+      else {
+        setIsAdded(false);
       }
     }
   }, [uniqueKey]);

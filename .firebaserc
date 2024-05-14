@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "build": "btcturk-d24ef",
+    "default": "btcturk-d24ef"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

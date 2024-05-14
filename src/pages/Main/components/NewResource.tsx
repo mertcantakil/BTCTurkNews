@@ -25,7 +25,7 @@ const NewsResource: React.FC<NewResourceProps> = ({ sources, selectedTags }) => 
         <Row>
           <Col span={22}>
             <div className='news-resource-wrapper'>
-              <h3 className='news-resource-title'>{source.name}</h3>
+              <h3 className='news-resource-title' onClick={() => handleClick(source.id)}>{source.name}</h3>
               <p className='news-resource-content'>{source.description}</p>
             </div>
           </Col>
